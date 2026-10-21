@@ -9,16 +9,16 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #ffffff;
-    color: #172033;
-    line-height: 1.6;
+    font-family:   'Arial Narrow bold';  
+    background: #cfcbcb;
+    color: #020101;
+    line-height: 1.1;
 }
 
 .header {
     width: 100%;
     padding: 20px 6%;
-    background: #ffffff;
+    background: #e2e1e4;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,30 +33,40 @@ body {
     align-items: center;
     gap: 15px;
     text-decoration: none;
-    color: #172033;
+    color: #074de6;
 }
 
 .logo span,
 .footer-logo span {
     font-size: 32px;
     font-weight: 800;
-    color: #1677ff;
+    color: #282ad8;
 }
 
 .logo strong,
 .footer-logo strong {
     font-size: 15px;
+    color: #101bb9;
 }
 
 .navbar {
-    background-color: #0000;
+    background: rgb(10, 228, 228);
+    color: #10b981;
     padding: 10px;
     margin: 20px;
     border-radius: 50px;
     border: 5px dashed rgb(104, 112, 104);
     display: flex;
-    gap: 30px;
+    gap: 30px; 
 }
+a.hover{
+    color: #10b981;
+    font-weight:bold;
+    font-size: 50px;
+}
+
+    
+
 
 .navbar a {
     color: #172033;
@@ -69,7 +79,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color: #1677ff;
+    color: #c98e0f;
 }
 
 .navbar a.active::after {
@@ -103,9 +113,9 @@ h2 span {
 }
 
 
-/* =========================
+/* 
    HOME PAGE
-========================= */
+ */
 
 .home-hero {
     min-height: 620px;
@@ -225,11 +235,11 @@ h2 span {
     right: 0;
     background: #ffffff;
     padding: 13px 18px;
-    border-radius: 13px;
+    border-radius: 10px;
     box-shadow: 0 10px 30px rgba(23, 32, 51, 0.12);
     display: flex;
     gap: 8px;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .photo-badge strong {
@@ -390,9 +400,8 @@ h2 span {
     position: absolute;
     width: 390px;
     height: 390px;
-    background: #dcecff;
     border-radius: 45% 55% 60% 40%;
-    transform: rotate(-8deg);
+    /* transform: rotate(-8deg); */
 }
 
 .profile-image {
@@ -403,7 +412,16 @@ h2 span {
     z-index: 2;
     border-radius: 45% 45% 50% 50%;
     border: 7px solid #ffffff;
-    box-shadow: 0 20px 50px rgba(22, 119, 255, 0.18);
+    /* box-shadow: 0 20px 50px rgba(22, 119, 255, 0.18); */
+}
+
+.photo-badge strong {
+    color: #10b981;
+}
+
+.photo-badge span {
+    font-size: 12px;
+    color: #1e06f5;
 }
 
 .social-links {
@@ -758,7 +776,7 @@ h2 span {
     box-shadow: 0 10px 35px rgba(23, 32, 51, 0.07);
 }
 
-.contact-form h2 {
+.contact-form label {
     font-size: 28px;
     margin-bottom: 25px;
 }
