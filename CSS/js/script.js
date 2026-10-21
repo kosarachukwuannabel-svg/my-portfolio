@@ -1,6 +1,6 @@
-// =========================
+// 
 // CONTACT FORM
-// =========================
+// 
 
 const contactForm = document.getElementById("contactForm");
 
